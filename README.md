@@ -30,7 +30,7 @@ source isolated/bin/activate
 git clone https://github.com/thiru7kavi/restapi.git
 ```
 
-2. Install Dependency:
+2. Install Dependency if testing it without Docker Else Go to Step 4:
 
 ```
 pip install -r requirements.txt
