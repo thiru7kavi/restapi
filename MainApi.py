@@ -94,4 +94,5 @@ if __name__=='__main__':
     initializing_flask_config(app)
     db.create_all()
     logging.info('Starting the API')
-    app.run()
+    app.run(host='0.0.0.0')
+

@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  api:
+    image: api/api:1.0
+    build:
+      context: .
+    networks:
+      - apinetwork
+    ports:
+      - 5000:5000
+networks:
+  apinetwork:

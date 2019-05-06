@@ -41,10 +41,16 @@ pip install -r requirements.txt
 ```
 python MainApp.py
 ```
+4. Deployment :
+  
+If Docker daemon is available 
 
+```
+docker-compose up -d 
+```
 ### Testing the stack
 
-API is published to the HOST
+API is published to the HOST 
 
 ```
 http://localhost:5000
